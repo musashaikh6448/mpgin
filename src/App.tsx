@@ -21,6 +21,8 @@ import SchoolOfManagementHome from "./pages/SchoolOfManagementHome";
 import VishwabharatiPolytechnicHome from "./pages/VishwabharatiPolytechnicHome";
 import SchoolOfEngineeringCourses from "./pages/SchoolOfEngineeringCourses";
 import SchoolOfManagementCourses from "./pages/SchoolOfManagementCourses";
+import { ScrollToTop } from "./components/ScrollToTop";
+
 
 export default function App() {
   return (
@@ -61,6 +63,7 @@ export default function App() {
           <Route path="/vishwabharati-polytechnic-institute/home" element={<VishwabharatiPolytechnicHome />} />
 
         </Routes>
+        <ScrollToTop/>
         <Footer />
       </div>
     </Router>
