@@ -74,7 +74,7 @@ const Footer = () => {
           </div>
 
           {/* Student Corner */}
-          <div>
+          {/* <div>
             <h3 className="text-xl font-bold mb-6">Student Corner</h3>
             <ul className="space-y-3">
               {[
@@ -95,7 +95,7 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Connect */}
           <div>
